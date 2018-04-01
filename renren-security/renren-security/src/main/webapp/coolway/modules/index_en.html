@@ -1,0 +1,486 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="../static/css/indexTwo.css" rel="stylesheet"/>
+    <link href="../static/css/video-js.css" rel="stylesheet"/>
+    <link href="../static/plugin-line/css/default.css" rel="stylesheet"/>
+    <link href="../static/plugin-line/css/normalize.css" rel="stylesheet"/>
+    <link href="../static/plugin-line/css/style.css" rel="stylesheet" media="screen"/>
+	<script src="../static/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="configBase"></div>
+<div class="configHeader"></div>
+<div class="layout" layout:fragment="all-content">
+    <!-- 首页版图 -->
+    <div class="container-fluid slider">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="something" id="something">
+                    <div class="m1" style="z-index:3;" data-am-scrollspy="{animation: 'slide-left', delay: 5570,repeat: false}"><img src="../static/image/index/banner/move1.png" width="100%"></div>
+                    <div class="m2" style="z-index:3;" data-am-scrollspy="{animation: 'slide-left', delay: 5710,repeat: false}"><img src="../static/image/index/banner/move2.png" width="100%"></div>
+                    <div class="m3" style="z-index:5;" data-am-scrollspy="{animation: 'slide-left', delay: 5600,repeat: false}"><img src="../static/image/index/banner/move3.png" width="100%"></div>
+                    <div class="m4" style="z-index:1;" data-am-scrollspy="{animation: 'slide-left', delay: 5650,repeat: false}"><img src="../static/image/index/banner/move4.png" width="100%"></div>
+                    <div class="m5" style="z-index:2;" data-am-scrollspy="{animation: 'slide-left', delay: 5500,repeat: false}"><img src="../static/image/index/banner/move5.png" width="100%"></div>
+                    <div class="m6" style="z-index:1;" data-am-scrollspy="{animation: 'slide-left', delay: 5700,repeat: false}"><img src="../static/image/index/banner/move6.png" width="100%"></div>
+                    <div class="m7" style="z-index:3;" data-am-scrollspy="{animation: 'slide-left', delay: 5730,repeat: false}"><img src="../static/image/index/banner/move7.png" width="100%"></div>
+                    <div class="m8" style="z-index:5;" data-am-scrollspy="{animation: 'slide-left', delay: 5690,repeat: false}"><img src="../static/image/index/banner/move8.png" width="100%"></div>
+                    <div class="m9" style="z-index:2;" data-am-scrollspy="{animation: 'slide-left', delay: 5720,repeat: false}"><img src="../static/image/index/banner/move9.png" width="100%"></div>
+                    <div class="m10" style="z-index:5;" data-am-scrollspy="{animation: 'slide-left', delay: 5560,repeat: false}"><img src="../static/image/index/banner/move10.png" width="100%"></div>
+                    <div class="m11" style="z-index:3;" data-am-scrollspy="{animation: 'slide-left', delay: 5630,repeat: false}"><img src="../static/image/index/banner/move11.png" width="100%"></div>
+                    <div class="m12" style="z-index:5;" data-am-scrollspy="{animation: 'slide-left', delay: 5610,repeat: false}"><img src="../static/image/index/banner/move12.png" width="100%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 首页版图END -->
+    <!-- 公司动态轮询 -->
+    <!--<div class="container-fluid hydt">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 hydt-container">1212</div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>-->
+    <div class="container-fluid system">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <div class="system-left-img">
+                        <img src="../static/image/index/systen-left.png" alt="" data-am-scrollspy="{animation: 'slide-left', delay: 200,repeat: false}">
+                    </div>
+                </div>
+                <div class="col-md-4 system-container">
+                    <p class="title-main">Coolway</p>
+                    <p class="h10 hidden-sm hidden-xs"></p>
+                    <p style="padding-top:45px;font-size: 28px;">The Global Leading Metro Tunnel Media Platform</p>
+                </div>
+                <div class="col-md-4" style="margin-top: 90px;overflow: hidden">
+                    <img src="../static/image/index/system-right.png" data-am-scrollspy="{animation: 'slide-right', delay: 200,repeat: false}" style="padding-right: 194px;padding-top: 65px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid vedio">
+        <div class="htmleaf-content">
+            <div id="preview">
+                <div id="preview-coverflow">
+                    <div>
+                        <img src="../static/image/video/10.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">锐步</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/9.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">斯凯奇</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/8.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">一汽丰田</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/7.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">汉堡王</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/6.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">赛车总动员</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/5.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">少林伏魔录</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/4.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">狮王牙膏</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/3.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">头脑特工队</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/2.jpg" class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">三叶草</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/11.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">天梭新</span>
+                    </div>
+                    <div>
+                        <img src="../static/image/video/1.jpg"  class="cover"/>
+                        <div class="h10 hidden-xs hidden-sm"></div>
+                        <span class="video-title">adidas光速系列</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row h60">
+            <div class="col-md-12">
+                <div class="col-md-3"></div>
+                <div class="col-md-6"><a href="../static/partners" class="color-main">More</a></div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </div>
+    <div id="picBox" class="picBox"  data-toggle="modal" data-target="#video" style="display: none;">
+    </div>
+    <div class="modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document" style="wid 782px">
+            <div class="modal-content" style="wid 782px">
+                <div class="modal-header" style="wid 782px;border: none;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body" style="padding: 0;wid780px;height:550px;" id="vedio-content">
+                    <embed  id="embed" src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=i0346dyd4d2&auto=1"
+                            allowFullScreen="true" quality="high" width="780px" height="550px" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+                    </embed>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid intro" style="background-color: black;padding:0px 0px;">
+        <div class="row">
+            <div class="col-md-12" style="padding: 80px 0px 60px 0px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 intro-container2" data-am-scrollspy="{animation: 'slide-right', delay: 800,repeat: false}"><img src="../static/image/index/intro-bg.png" width="100%"></div>
+                <div class="col-md-6 intro-container" style="padding-top: 100px;padding-left: 66px;height: 500px;">
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 100,repeat: false}">
+                        <div class="text" style="font-size: 36px;">Innovative Media</div>
+                    </div>
+                    <div class="intro-item intro-deadline" data-am-scrollspy="{animation: 'scale-up', delay: 100,repeat: false}"></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 200,repeat: false}" style="margin-top: 27px;">
+                        <div class="yuan"></div>
+                        <div class="text">Captivates and create exciting train-riding experience for metro passengers during their daily routines</div>
+                    </div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 300,repeat: false}"><div class="yuan"></div><div class="text">Create a wide range of angles and the most appropriate visual distance</div></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 400,repeat: false}"><div class="yuan"></div><div class="text">To the target customers in the right places and at the right time</div></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 500,repeat: false}"><div class="yuan"></div><div class="text">Delivers an unique experience and presents a splendid colorful underground to the passengers</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container tech" >
+        <div id="particles-js"></div>
+        <div class="row mt40" style="    position: absolute;top: 50%;margin-top: -300px;left: 50%; margin-left: -450px;">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="tech-map">
+                    <div class="map-icon bj" data-toggle="modal" data-target="#bj" title="BeiJing">
+                        <div class='pin'></div>
+                        <div class='pulse'></div>
+                    </div>
+                    <div class="map-icon map-title-bj">BeiJing</div>
+                    <div class="map-icon cd"  data-toggle="modal" data-target="#cd" title="ChengDu">
+                        <div class='pin'></div>
+                        <div class='pulse'></div>
+                    </div>
+                    <div class="map-icon map-title-cd">ChengDu</div>
+                    <div class="map-icon sh" data-toggle="modal" data-target="#sh" title="ShangHai">
+                        <div class='pin'></div>
+                        <div class='pulse'></div>
+                    </div>
+                    <div class="map-icon map-title-sh">ShangHai</div>
+                    <div class="map-icon sz" data-toggle="modal" data-target="#sz" title="ShenZhen">
+                        <div class='pin'></div>
+                        <div class='pulse'></div>
+                    </div>
+                    <div class="map-icon map-title-sz">ShenZhen</div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" id="bj" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" style="background:white;position: relative">
+                            <div style="wid 50px;height: 50px;right: 10px;top: 10px;position: absolute;" data-dismiss="modal">
+                                <img src="../static/image/index/close.png" alt="" width="100%"></div>
+                            <div style="padding:10px;"><a href=""><img src="../static/image/map/map-bj.png" width="100%"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" id="sh" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" style="background:white;position: relative">
+                            <div style="wid 50px;height: 50px;right: 10px;top: 10px;position: absolute;" data-dismiss="modal"><img  width="100%" src="../static/image/index/close.png" alt=""></div>
+                            <div style="padding:10px;"><a href=""><img src="../static/image/map/map-sh.png" width="100%"></a></div>
+                            <!--<div class="goView"><a href="../static/partners}">查看更多案例</a></div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" id="cd" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" style="background:white;position: relative">
+                            <div style="wid 50px;height: 50px;right: 10px;top: 10px;position: absolute;" data-dismiss="modal"><img src="../static/image/index/close.png" alt="" width="100%"></div>
+                            <div style="padding:10px;"><a href=""><img src="../static/image/map/map-cd.png" width="100%"></a></div>
+                            <!--<div class="goView"><a href="../static/partners">查看更多案例</a></div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" id="sz" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content" style="background:white;position: relative">
+                            <div style="wid 50px;height: 50px;right: 10px;top: 10px;position: absolute;" data-dismiss="modal"><img src="../static/image/index/close.png" alt="" width="100%"></div>
+                            <div style="padding:10px;"><a href=""><img src="../static/image/map/map-sz.png" width="100%"></a></div>
+                            <!--<div class="goView"><a href="../static/partners">查看更多案例</a></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="intro-tech" style="height:80px;">
+        <div class="button-group" style="padding-top: 20px">
+            <div class="div-button" onclick="showLine('bj',this)">BeiJing</div>
+            <div class="div-button m-b" onclick="showLine('sh',this)">ShangHai</div>
+            <div class="div-button m-b" onclick="showLine('sz',this)">ShenZhen</div>
+            <div class="div-button m-b" onclick="showLine('cd',this)">ChengDu</div>
+        </div>
+    </div>
+    <div class="container-fluid tech-leader">
+        <div class="row">
+            <div class="col-md-12 tech-title">
+                Technology Advantage
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-2"></div>
+                <div class="col-md-2"><img data-am-scrollspy="{animation: 'scale-up', delay: 200,repeat: false}" src="../static/image/index/tech-1.png" alt="" height="90px">
+                    <div data-am-scrollspy="{animation: 'slide-bottom', delay: 200,repeat: false}" class="tech-intro">
+                        Allows our advertising clients to network their campaigns and create new revenue streams to increase overall revenue
+                    </div>
+                </div>
+                <div class="col-md-2"><img data-am-scrollspy="{animation: 'scale-up', delay: 400,repeat: false}" src="../static/image/index/tech-2.png" alt="" height="90px">
+                    <div data-am-scrollspy="{animation: 'slide-bottom', delay: 400,repeat: false}" class="tech-intro">
+                        Innovative media format creates interaction between passengers, medias and their mobile phones
+                    </div>
+                </div>
+                <div class="col-md-2"><img data-am-scrollspy="{animation: 'scale-up', delay: 600,repeat: false}" src="../static/image/index/tech-3.png" alt="" height="90px">
+                    <div data-am-scrollspy="{animation: 'slide-bottom', delay: 600,repeat: false}" class="tech-intro">
+                        Over 50,000 hours life-span and recyclable
+                    </div>
+                </div>
+                <div class="col-md-2"><img data-am-scrollspy="{animation: 'scale-up', delay: 800,repeat: false}" src="../static/image/index/tech-4.png" alt="" height="90px">
+                    <div data-am-scrollspy="{animation: 'slide-bottom', delay: 800,repeat: false}" class="tech-intro">
+                        Advanced Cloud System to upload/download programs
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid intro safe-new" style="background-color: black;">
+        <div class="row">
+            <div class="col-md-12" style="padding-top:100px;padding-bottom:100px;">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 intro-container2" data-am-scrollspy="{animation: 'slide-right', delay: 800,repeat: false}">
+                    <img src="../static/image/index/subway-icon.png" width="80%" style="padding-left:200px;">
+                </div>
+                <div class="col-md-6 intro-container">
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 100,repeat: false}">
+                        <div class="text" style="font-size: 36px;">Security</div>
+                    </div>
+                    <div class="intro-item intro-deadline" data-am-scrollspy="{animation: 'scale-up', delay: 100,repeat: false}"></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 200,repeat: false}">
+                        <div class="yuan"></div>
+                        <div class="text">Unique design and customized install plans for different types of the metro tunnels in order to ensure</div>
+                    </div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 300,repeat: false}"><div class="yuan"></div><div class="text">Adopt high-quality flame retardant materials and reach UL94-V0 standard</div></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 400,repeat: false}"><div class="yuan"></div><div class="text">Approve by CE,CB, FCC， and other safety organizations</div></div>
+                    <div class="intro-item" data-am-scrollspy="{animation: 'scale-up', delay: 500,repeat: false}"><div class="yuan"></div><div class="text">organizations.Professionally operated 300 sets of Coolway systems for more than 12 years with zero accident</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid partners">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="banner-slider">
+                    <ul>
+                        <li>
+                            <div class="par-title">Our Partners</div>
+                            <div class="flex partners-item">
+                                <div class="flex-1"><img src="../static/image/partners/subway/1.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/2.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/3.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/4.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/5.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/6.png"></div>
+                            </div>
+                            <div class="flex partners-item">
+                                <div class="flex-1"><img src="../static/image/partners/subway/7.png"></div>
+                                <div class="flex-1"><img src="../static/image/partners/subway/8.png"></div>
+                                <div class="flex-1"></div>
+                                <div class="flex-1"></div>
+                                <div class="flex-1"></div>
+                                <div class="flex-1"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="par-title">Our Clients</div>
+                            <div class="flex partners-item">
+                                <div class="flex-1"><img src="../static/image/partners/brand/1.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/2.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/3.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/4.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/5.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/6.jpg"></div>
+                            </div>
+                            <div class="flex partners-item">
+                                <div class="flex-1"><img src="../static/image/partners/brand/7.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/8.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/9.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/10.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/11.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/12.jpg"></div>
+                            </div>
+                            <div class="flex partners-item">
+                                <div class="flex-1"><img src="../static/image/partners/brand/13.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/14.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/15.jpg"></div>
+                                <div class="flex-1"><img src="../static/image/partners/brand/16.jpg"></div>
+                                <div class="flex-1"></div>
+                                <div class="flex-1"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="configFooter"></div>
+<script src="../static/js/index.js"></script>
+<script type="text/javascript">
+    $(function(){
+    	$(".configBase").load("base_en.html");
+    	$(".configHeader").load("header_en.html");
+    	$(".configFooter").load("footer_en.html");
+        $("#nav").find('li').eq(0).find('a').addClass('selected');
+        //定义滚动背景容器变量
+        var oUl=document.getElementById('something'),
+                l = oUl.offsetWidth/2,
+                t = oUl.offsetHeight/2,
+                aLi=oUl.getElementsByTagName('div');
+        oUl.onmousemove = function( ev ){
+            var oEv = ev || event,
+                    iL = oEv.clientX,
+                    iT = oEv.clientY;
+
+            for(var i=0; i<aLi.length; i++){
+                aLi[i].style.marginLeft=(iL - l )/100*aLi[i].style.zIndex+'px';
+                aLi[i].style.marginTop=(iT - t )/70*aLi[i].style.zIndex+'px';
+            }
+        }
+    });
+    var index = 2;
+    var count=0;
+    var left=0;
+
+    function slider(indexNum,type){
+        var li = $('#cf').find('li');
+        var liWidth=li.width();
+        for(var i =0;i<li.length;i++){
+            if(li.eq(i).hasClass('on')){
+                index=i;
+            }
+        }
+        li.eq(index).removeClass('on');
+        $("#vedio-img").attr('src',li.eq(indexNum).find('img').attr('lang'));
+        $("#vedio-content").html(li.eq(indexNum).find('img').attr('data'));
+        if(type == 'left'){
+            if(index = 1 ){
+                $('#cf').animate({left:'-'+(left-liWidth)+'px'});
+                left=left-liWidth;
+            }
+            if(index == 0){
+                $('#cf').animate({left:'-'+(left+liWidth)+'px'});
+                left=left+liWidth;
+            }
+        }
+        if(type == 'right'){
+            if(index = 5 ){
+                $('#cf').animate({left:'-'+(left-liWidth)+'px'});
+                left=left-liWidth;
+            }
+            if(index == 4){
+                $('#cf').animate({left:'-'+(left+liWidth)+'px'});
+                left=left+liWidth;
+            }
+        }
+
+    }
+    if(window.chrome) {
+        $('.banner-slider li').css('background-size', '100% 100%');
+    }
+    setTimeout(function(){
+	    $('.banner-slider').unslider({
+	        speed: 500,               //  The speed to animate each slide (in milliseconds)
+	        delay: 3000,              //  The delay between slide animations (in milliseconds)
+	        complete: function() {},  //  A function that gets called after every slide animation
+	        keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+	        dots: true,               //  Display dot navigation
+	        fluid: true
+	    });
+    },500)
+
+    function showLine(code,obj){
+        $("."+code).trigger("click");
+    }
+</script>
+<script src="../static/plugin-line/js/particles.js"></script>
+<script src="../static/plugin-line/js/app.js"></script>
+<script src="../static/plugin-lunbo/js/jquery-ui.min.js"></script>
+<script src="../static/plugin-lunbo/js/jquery.coverflow.js"></script>
+<script src="../static/plugin-lunbo/js/jquery.interpolate.js"></script>
+<script src="../static/plugin-lunbo/js/jquery.touchSwipe.min.js"></script>
+<script src="../static/plugin-lunbo/js/reflection.js"></script>
+<script>
+    $(function() {
+        if ($.fn.reflect) {
+            $('#preview-coverflow .cover').reflect();	// only possible in very specific situations
+        }
+
+        $('#preview-coverflow').coverflow({
+            index:			6,
+            density:		2,
+            innerOffset:	50,
+            innerScale:		.7,
+            animateStep:function(event, cover, offset, isVisible, isMiddle, sin, cos) {
+                if (isVisible) {
+                    if (isMiddle) {
+                        $(cover).css({
+                            'filter':			'none',
+                            '-webkit-filter':	'none'
+                        });
+                    } else {
+                        var brightness	= 1 + Math.abs(sin),
+                                contrast	= 1 - Math.abs(sin),
+                                filter		= 'contrast('+contrast+') brightness('+brightness+')';
+                        $(cover).css({
+                            'filter':			filter,
+                            '-webkit-filter':	filter
+                        });
+                    }
+                }
+            },
+            confirm:function(event, cover,index) {
+                var page = index + 1;
+                var url = "http://static.hdslb.com/miniloader.swf?aid=15538541&page="+page;
+                $("#embed").attr("src",url);
+                $("#picBox").trigger("click");
+            }
+        });
+    });
+</script>
+</body>
+</html>

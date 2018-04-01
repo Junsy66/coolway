@@ -1,0 +1,96 @@
+.header{
+    background: #8672ff;
+}
+.footer{
+    margin-top: 30px;
+    background: #8672ff;
+}
+.brand{
+    width:100%;
+}
+.brand .brand-layout{
+    width:100%;
+    margin-top: 50px;
+}
+.content{
+    width:100%;
+    height:500px;
+    background: url("../../image/mobile/brand/brand-bg.jpg") no-repeat;
+    background-size: 100%  598px;
+    background-position-y: -96px;
+}
+.brand-title{
+    width:100%;
+    height:70px;
+    background: url("../../image/mobile/brand/brand-title-bg.jpg") no-repeat;
+    background-size: 100% 70px;
+}
+.content-detail{
+    width:90%;
+    margin:0 auto;
+    padding-top: 30px;
+}
+.content-detail p{
+    height:3em;
+    width:11em;
+    line-height:3em;
+    padding-left: 20px;
+    background: url("../../image/mobile/brand/brabd-nav.png") no-repeat;
+    background-size: 100% 50px;
+    color: rgb(117,123,255);
+    margin-bottom: 1.2em;
+}
+.partner-detail{
+    width:100%;
+    background:#FFFFFF;
+    margin-top: 80px;
+    left:0;
+    top:50px;
+    transition: all 0.3s;
+}
+.partner-detail .title{
+    color: #606060;
+}
+.transform{
+    transform:translate3d(100%, 0, 0);
+}
+.hide{
+    display: none;
+}
+.mt15{
+    margin-top: 15px;
+}
+.detail-item{
+    width:90%;
+    margin:0 auto;
+    font-size: 1em;
+    margin-top: 30px;
+}
+.detail-item .tech{
+    font-size: 0.875em;
+    color: #5e5e5e;
+    margin-top: 15px;
+}
+.title-img{
+    margin-top:15px;
+}
+.text{
+    font-size: 0.875em;
+    color: #5e5e5e;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+.back-btn{
+    text-align: center;
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    background: rgb(105,132,255);
+    border:none;
+    color: #fff;
+    line-height: 40px;
+    font-size: 1.4em;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

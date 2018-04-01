@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="../static/css/location.css" rel="stylesheet"/>
+    <script src="../static/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="configBase"></div>
+<div class="configHeader"></div>
+<div class="layout" layout:fragment="all-content">
+    <div class="container container-contact">
+        <div class="row">
+            <div class="title col-md-12">联系我们</div>
+        </div>
+        <div class="row mt30 contact-content">
+
+            <div class="col-md-12">
+                <div class="col-md-4 one">
+                    <p class="intro-title">项目合作</p>
+                    <p>地址:&nbsp;&nbsp;北京市大兴区黄村镇金苑路26号金日科技园</p>
+                    <p>邮编:&nbsp;&nbsp;102600</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-61273344</p>
+                    <p>传真:&nbsp;&nbsp;+86-010-61273345</p>
+                    <p>邮箱:&nbsp;&nbsp;market@bjjr.com.cn</p>
+                </div>
+                <div class="col-md-4 one">
+                    <p class="intro-title">海外业务</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-61273344</p>
+                    <p>传真:&nbsp;&nbsp;+86-010-61273345</p>
+                    <p>邮箱:&nbsp;&nbsp;bjjrmd@bjjr.com.cn</p>
+                </div>
+                <div class="col-md-4 one">
+                    <p class="intro-title">广告投放</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-57178508(北京)</p>
+                    <p>电话:&nbsp;&nbsp;400-689-1212(广东)</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-4 one">
+                    <p class="intro-title">北京金日酷媒文化传播有限公司</p>
+                    <p>地址:&nbsp;&nbsp;北京市朝阳区南磨房路37号华腾北塘商务大厦2601</p>
+                    <p>邮编:&nbsp;&nbsp;100020</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-57178508</p>
+                    <p>传真:&nbsp;&nbsp;+86-010-51909172</p>
+                    <p>邮箱:&nbsp;&nbsp;bjjrkm@bjjr.com.cn</p>
+                    <p>链接:&nbsp;&nbsp;<a href="http://www.bjjrad.com/">http://www.bjjrad.com/</a></p>
+                </div>
+                <div class="col-md-4 one">
+                    <p class="intro-title">深圳酷媒文化传播有限公司</p>
+                    <p>地址:&nbsp;&nbsp;深圳市南山区科技园12方大大厦</p>
+                    <p>邮编:&nbsp;&nbsp;518000</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-61273344</p>
+                    <p>传真:&nbsp;&nbsp;+86-010-61273345</p>
+                    <p>邮箱:&nbsp;&nbsp;market@bjjr.com.cn</p>
+                </div>
+                <div class="col-md-4 one">
+                    <p class="intro-title">广州酷媒文化传播有限公司</p>
+                    <p>地址:&nbsp;&nbsp;广州市天河区林和西路161号中泰国际广场B1002</p>
+                    <p>邮编:&nbsp;&nbsp;510000</p>
+                    <p>电话:&nbsp;&nbsp;+86-010-61273344</p>
+                    <p>传真:&nbsp;&nbsp;+86-010-61273345</p>
+                    <p>邮箱:&nbsp;&nbsp;market@bjjr.com.cn</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="col-md-4 one">
+                    <p class="intro-title">上海酷媒文化传播有限公司</p>
+                    <p>地址:&nbsp;&nbsp;上海市崇明县长兴镇潘园公路1800号</p>
+                    <p>邮编:&nbsp;&nbsp;202150</p>
+                    <p>电话:&nbsp;&nbsp;+86-021-60907190</p>
+                    <p>传真:&nbsp;&nbsp;+86-021-51862135</p>
+                    <p>邮箱:&nbsp;&nbsp;bjjrkm@bjjr.com.cn</p>
+                    <p>链接:&nbsp;&nbsp;<a href="http://www.coolwayad.com/">http://www.coolwayad.com/</a></p>
+                    <div class="h20 hidden-xs hidden-sm"></div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-6 one" style="padding-top: 25px;">
+                    <img src="../static/image/contact/wechat.png" width="30%" style="padding-left:20px;">
+                    <img src="../static/image/contact/weibo.png" width="30%" style="padding-left:20px;">
+                </div>
+            </div>
+        </div>
+        <div class="h30 hidden-xs hidden-sm"></div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row footer-bottom" data-am-scrollspy="{animation: 'scale-down', delay: 100,repeat: false}">北京金日恒升科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;京ICP备16052258号</div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    $(function(){
+    	$(".configBase").load("base.html");
+    	$(".configHeader").load("header.html");
+        $("#nav").find('li').eq(5).find('a').addClass('selected');
+    });
+</script>
+</block>
+</body>
+</html>

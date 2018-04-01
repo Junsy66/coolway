@@ -1,0 +1,185 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-size:14px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    position: relative;
+}
+
+.business-logo {
+    margin: 15px 30px 35px 0;
+    text-align: center;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom */
+a {
+    color: #fff;
+    text-decoration: none;
+    -webkit-backface-visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.7);
+    -webkit-border-radius: 6px;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#navigation nav {
+    border-color: rgb(33,36,43);
+}
+
+#navigation .navbar-toggle {
+    border-color: rgb(33,36,43);
+}
+
+#navigation .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+#nav {
+    margin: 0 -15px;
+}
+
+#nav li {
+    text-align: center;
+}
+
+#nav li a {
+    color: #FFFFFF;
+    -webkit-transition: all 0.6s linear; /* 它可以设置很多过渡效果 */
+    -moz-transition: all 0.6s linear; /* 它可以设置很多过渡效果 */
+    -o-transition: all 0.6s linear; /* 它可以设置很多过渡效果 */
+    transition: all 0.6s linear; /* 它可以设置很多过渡效果 */
+    font-size: 14px;
+}
+
+#nav li a:hover {
+    color: rgb(237,192,1);
+    background: none;
+}
+
+/* footer */
+.footer {
+    /*position: absolute;*/
+    left:0;
+    bottom:0;
+    width: 100%;
+    background:#131414;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    bottom: 10px;
+    height: 60px;
+    line-height: 60px;
+    color: #efeded;
+}
+
+.contact-content {
+    color: #ffffff;
+    overflow: hidden;
+    min-height: 500px;
+    background: #131414;
+}
+
+.one p.intro-title {
+    font-size: 18px;
+    color: rgb(255,202,0);
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.one p {
+    padding: 0;
+    margin: 2px 0px;
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+}
+
+.selected{
+    color:rgb(255,202,0) !important;
+    border-bottom: 1px solid rgb(255,202,0) !important;
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width: 768px) {
+    #nav {
+        margin: 0 -15px;
+        background: rgb(43,45,57);
+    }
+}

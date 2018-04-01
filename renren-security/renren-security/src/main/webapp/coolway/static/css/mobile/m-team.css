@@ -1,0 +1,88 @@
+.header {
+    background: #8672ff;
+}
+
+.team-wrapper {
+    width: 100%;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+.team-content {
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 100%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+.team-top {
+    width: 100%;
+}
+
+.team-top .team-title {
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+}
+
+.team-top .team-introduce {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #888888;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.team-box {
+    margin-top: 5%;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+}
+
+.team-img {
+    display: block;
+    max-width: 100%;
+}
+
+.team-box .team-box-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 5%;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #888888;
+}
+.team-box .team-box-text1 {
+    top: 65%;
+}
+
+.team-box .team-name1 {
+    position: absolute;
+    display: block;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000000;
+    font-weight: 500;
+}
+.team-box .team-name{
+    position: absolute;
+    display: block;
+    bottom:55%;
+    left:45%;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #000000;
+    font-weight: 500;
+}
+.team-box .team-name span,.team-box .team-name1 span{
+    font-size: 0.8em;
+    font-weight:200;
+}

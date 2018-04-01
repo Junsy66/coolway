@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="深圳信真科技有限公司"/>
+    <meta name="description" content="致力于运用云计算、大数据、区块链和人工智能等先进技术，打造基于云端的、集投融资、支付、清结算和市场营销等功能为一体的金融云平台"/>
+    <meta name="renderer" content="webkit">
+    <title>home</title>
+    <link type="image/x-icon" rel="shortcut icon" th:href="@{/image/index/fav.jpg}"/>
+    <link th:href="@{/css/base.css}" rel="stylesheet"/>
+    <link th:href="@{/css/bootstrap3.0/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/animate.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/amazeui.min.css}" rel="stylesheet"/>
+    <script th:src="@{/js/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <script th:src="@{/js/amazeui.min.js}"></script>
+    <script th:src="@{/js/unslider.js}"></script>
+    <style type="text/css">
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video, input {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: calibri;
+            font-weight: normal;
+            vertical-align: baseline;
+            font-size:14px;
+        }
+    </style>
+
+</head>
+<body>
+    <header id="navigation" class=" navbar-fixed-top animated-header"
+            style="background: #0c0c0c;color:#fff;height: 60px;padding-top: 5px; border-bottom:1px solid rgb(25,29,40)">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- responsive nav button -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- /responsive nav button -->
+                <!-- logo -->
+                <a th:href="@{/}"><img src="/image/index/logo.png" alt="" width="130px" height="45px"></a>
+                <!-- /logo -->
+            </div>
+            <!-- main nav -->
+            <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                <ul id="nav" class="nav navbar-nav">
+                    <li><a th:href="@{/index_en}">Home</a></li>
+                    <li><a th:href="@{/about_en}">About Us</a></li>
+                    <li><a th:href="@{/scheme_en}">Solution</a></li>
+                    <li><a th:href="@{/partners_en}">Case Display</a></li>
+                    <li><a th:href="@{/jobs_en}">Join Us</a></li>
+                    <li><a th:href="@{/contact_en}">Contact Us</a></li>
+                    <li><a th:href="@{/}">Chinese</a></li>
+                    <!--<li><a th:href="@{/}">English</a></li>-->
+                </ul>
+            </nav>
+            <!-- /main nav -->
+        </div>
+    </header>
+    <div class="container" layout:fragment="all-content" style="padding-top:60px"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="col-md-12" style="padding-top: 20px;">
+                <div class="col-md-4 one">
+                    <p class="intro-title">Cooperation</p>
+                    <p>Phone:&nbsp;&nbsp;+86-010-61273344</p>
+                    <p>E-mail:&nbsp;&nbsp;market@bjjr.com.cn</p>
+                </div>
+                <div class="col-md-4 one">
+                    <p class="intro-title">Advertising delivery</p>
+                    <p>Phone:&nbsp;&nbsp;400-689-1212</p>
+                </div>
+                <div class="col-md-4 one" style="padding-top:15px">
+                    <img th:src="@{/image/contact/wechat.png}" width="30%" style="padding-left:20px;">
+                    <img th:src="@{/image/contact/weibo.png}" width="30%" style="padding-left:20px;">
+                </div>
+            </div>
+            <div class="col-md-12" style="padding-top: 20px;">
+                <div class="row footer-bottom">Beijing Jinri Hengsheng Technology Co., Ltd&nbsp;&nbsp;&nbsp;&nbsp;京ICP备16052258号</div>
+            </div>
+        </div>
+    </footer>
+<th:block layout:fragment="scripts"></th:block>
+</body>
+</html>

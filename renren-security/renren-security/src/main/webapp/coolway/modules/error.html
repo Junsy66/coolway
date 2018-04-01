@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/base}">
+<head>
+    <title>出错了</title>
+</head>
+<body>
+<div class="layout" layout:fragment="all-content">
+    <h3 th:text="${message}"></h3>
+    <br/>
+    <h3 th:text="${exception.getCause()}" th:if="${exception} != null"></h3>
+    <br/>
+    <ul th:remove="tag" th:if="${exception} != null">
+        <li th:each="ste : ${exception.stackTrace}" th:remove="tag">
+            <span th:utext="${ste}" th:remove="tag">${ste}</span>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

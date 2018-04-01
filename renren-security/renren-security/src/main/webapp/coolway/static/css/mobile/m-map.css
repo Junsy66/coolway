@@ -1,0 +1,73 @@
+.map{
+    width:100%;
+}
+.header{
+    background: #8672ff;
+}
+.footer{
+    background: #8672ff;
+}
+.map .header-bg{
+    width:100%;
+    height:50px;
+    background: rgb(85,75,166);
+}
+.map .map-layout{
+    width:100%;
+    background: #e3e3e3 url("../../image/mobile/contact/map-bg.jpg") no-repeat;
+    background-size: cover;
+}
+.map .map-layout .map-content{
+    width:100%;
+}
+.map-header{
+    border:none;
+    font-size: 0.82em;
+    color: #fff;
+    width:90%;
+    margin:0 auto;
+}
+.mt20{margin-top: 20px;}
+.pt20{
+    padding-top: 20px;
+}
+.mb15{margin-bottom: 10px;}
+
+.map-header .title{
+    font-size: 1.2em;
+    color:rgb(255,247,176);
+}
+.detail{
+    text-align: left;
+}
+.detail span{margin-left: 20px;}
+.cpy-location{
+    color: #FFFFFF;
+}
+
+.cpy-location .tdu{
+    text-decoration: underline;
+}
+.cpy-location span:first-child{
+    margin-left:0;
+}
+.cpy-location span{
+    margin-left: 14px;
+    color: #d1d1d1;
+    text-decoration: none;
+}
+.map-location {
+    width: 96%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.map-location>img{
+    border-radius: 10px;
+}
+.map-content-tip{
+    margin-top:30px;
+}
+.hide{
+    display: none;
+}

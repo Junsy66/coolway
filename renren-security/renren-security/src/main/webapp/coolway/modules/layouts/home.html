@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="深圳信真科技有限公司"/>
+    <meta name="description" content="致力于运用云计算、大数据、区块链和人工智能等先进技术，打造基于云端的、集投融资、支付、清结算和市场营销等功能为一体的金融云平台"/>
+    <title>深圳信真科技有限公司</title>
+    <link type="image/x-icon" rel="shortcut icon" th:href="@{/image/favicon.png}" />
+    <link th:href="../static/base.css" rel="stylesheet"/>
+    <link th:href="../static/css/animate.min.css" rel="stylesheet"/>
+    <link th:href="../static/css/amazeui.min.css" rel="stylesheet"/>
+    <script th:src="../static/js/jquery.min.js"></script>
+    <script th:src="../static/js/amazeui.min.js"></script>
+</head>
+<body>
+<div class="container" layout:fragment="all-content"></div>
+<th:block layout:fragment="scripts"></th:block>
+</body>
+</html>

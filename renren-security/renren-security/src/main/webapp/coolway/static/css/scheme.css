@@ -1,0 +1,93 @@
+body {
+    background: rgb(43,45,57);
+    color: #ffFFFF;
+}
+.container-contact{
+    min-height: 613px;
+}
+.h30{
+    height:30px;
+}
+.h10{
+    height:10px;
+}
+.h50{
+    height:50px;
+}
+.h20{
+    height:20px;
+}
+.tc{
+    text-align: center;
+}
+.title{
+    width: 150px;
+    text-align: center;
+    height:60px;
+    background: #131414;
+    color: rgb(255,202,0);
+    line-height: 60px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.title_en{
+    width: auto;
+}
+.mt30{
+    margin-top: 15px;
+}
+.row div{
+}
+.big-title{
+    background: #38393b;
+    width: 100%;
+    padding:20px;
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.layout{
+    background: #292b2d;
+}
+
+.tech-content{
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+}
+.part-1{
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+.safe-title{
+    margin-top: 30px;
+    font-size: 22px;
+}
+.win-title{
+    font-size: 22px;
+    color: rgb(255,202,0);
+    text-align: left;
+    padding: 20px 0;
+}
+.win-text{
+     font-size: 18px;
+    text-align: left;
+    padding: 10px 0;
+    height:140px;
+ }
+.win-btn{
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    color: #333333;
+    border-radius: 10px;
+    background-color: rgb(255,202,0);
+}
+.win-btn a{
+    color: #333333;
+    font-size: 16px;
+}

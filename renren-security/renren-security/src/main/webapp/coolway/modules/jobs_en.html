@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Join Us</title>
+    <link href="../static/css/jobs.css" rel="stylesheet"/>
+    <script src="../static/js/jquery.min.js"></script>
+</head>
+<body>
+<div class="configBase"></div>
+<div class="configHeader"></div>
+<div class="layout">
+    <div class="container-fluid jobs" >
+        <div class="row" style="background: rgb(43,45,57);">
+            <div class="col-md-12  remove-padding bg-whit">
+                <div class="col-md-2 bg-gray remove-padding hidden-xs hidden-sm bar" id="bar">
+                    <div class="left-bar">
+                        <div class="part-title">Join Us</div>
+                        <div class="email mt150">Phone:&nbsp;&nbsp;+86-010-60216646</div>
+                        <div class="email">E-mail:&nbsp;&nbsp;hr@bjjr.com.cn</div>
+                    </div>
+                </div>
+                <div class="col-md-10 bg-whit pt30" id="own-height">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-8">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-11">
+                        </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="configFooter"></div>
+<script type="text/javascript">
+    $(window).resize(function () {
+        $("#bar").css({'height': $(window).height() + 'px'})
+    });
+    $(document).ready(function () {
+    	$(".configBase").load("base_en.html");
+    	$(".configHeader").load("header_en.html");
+    	$(".configFooter").load("footer_en.html");
+        $("#bar").css({'height': $(window).height() + 'px'})
+        $("#nav").find('li').eq(4).find('a').addClass('selected');
+    });
+    var barheight=$("#bar").height();
+    $('.icon').click(function(){
+        var sel=$('.icon');
+        var req=$('.requirement');
+        var l=sel.index(this);
+
+        for (var i = 0; i <sel.length; i++) {
+            if(sel.eq(i).hasClass('active')){
+                sel.eq(i).removeClass("active");
+            }
+        }
+        sel.eq(l).addClass("active");
+        for (var j = 0; j <req.length; j++) {
+            if(req.eq(j).hasClass('show')){
+                req.eq(j).removeClass("show").addClass("hide");
+            }else{
+
+            }
+        }
+        req.eq(l).removeClass("hide").addClass("show");
+        if(barheight<$("#own-height").outerHeight(true)){
+            $("#bar").css('height',$("#own-height").outerHeight(true)+'px');
+        }else{
+            $("#bar").css('height',barheight+'px');
+        }
+    });
+</script>
+</body>
+</html>
